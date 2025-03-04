@@ -1,4 +1,9 @@
 /* ----------------- GLOBAL STYLES (Jake Sturges) -----------------*/
+header a {
+    display: block;
+}
+
+
 .skip-link {
     position: absolute;
     left: -200px;
