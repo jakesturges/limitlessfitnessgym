@@ -3,7 +3,6 @@ header a {
     display: block;
 }
 
-
 .skip-link {
     position: absolute;
     left: -200px;
@@ -12,9 +11,7 @@ header a {
     padding: 10px;
     text-decoration: none;
     display: block;  
-  }
+}
   
-  .skip-link:focus {
-    margin-bottom: 10px; 
-    left: 0; 
-  }
+.skip-link:focus {
+    margin-bo
