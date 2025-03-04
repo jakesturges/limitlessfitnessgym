@@ -14,4 +14,53 @@ header a {
 }
   
 .skip-link:focus {
-    margin-bo
+    margin-bottom: 10px; 
+    left: 0; 
+}
+
+#personal-training a{
+    display: block;
+}
+
+form{
+	width: 90%;
+	max-width: 350px;
+	margin:  2em auto;
+	padding:  0.75em;
+	border: 2px solid #777;
+	border-radius: 0.2em;
+}
+
+input, label, textarea{
+	display: block;
+	width: calc(100% - 2em);
+}
+
+input, textarea, select{
+	outline: 1px solid #222;
+	border: none;
+	border-radius: 0.2em;
+}
+
+label{
+	font-size: 1.1em;
+}
+
+.required{
+	color: #c71819;
+}
+
+input{
+	width: 90%;
+	margin: 0.25em auto 0.5em auto;
+	padding: 0.5em;
+}
+
+input:focus, select:focus, textarea:focus{
+	border: 2px inset #0a58ff;
+	box-shadow: 0 0 0 0.09em currentColor;
+}
+
+input:error, select:error, textarea:error{
+	background-color: #c71819;
+}
