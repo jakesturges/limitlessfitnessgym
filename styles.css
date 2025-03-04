@@ -1,0 +1,15 @@
+/* ----------------- GLOBAL STYLES (Jake Sturges) -----------------*/
+.skip-link {
+    position: absolute;
+    left: -200px;
+    background: black;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;  
+  }
+  
+  .skip-link:focus {
+    margin-bottom: 10px; 
+    left: 0; 
+  }
